@@ -14,4 +14,9 @@ public class Tarefas {
     public String getDescricao(){
         return descricao;
     }
+
+    //Sobreescrevendo o toString{} para usar o Método obterDescricao
+    public String toString(){
+        return descricao;
+    }
 }
