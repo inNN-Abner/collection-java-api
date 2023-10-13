@@ -27,9 +27,9 @@ public class Livro {
 
     //Sobreescrevendo o toString{}
     public String toString() {
-        return "Livro: " + titulo +
-        "Autor: " + autor +
-        "Ano de Publicação: " + anoPublicacao; 
+        return " | Livro: " + titulo +
+        " | Autor: " + autor +
+        " | Ano de Publicação: " + anoPublicacao; 
     }
 
 }
