@@ -35,7 +35,7 @@ public class Pessoa implements Comparable<Pessoa> {
 
     //Formatação toString
     public String toString(){
-        return "Pessoa | " +
+        return "\nPessoa | " +
         "Nome: " + nome +
         " | Idade: " + idade +
         " | Altura: " + altura;
